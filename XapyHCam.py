@@ -32,7 +32,7 @@ def main():
     print("{}  | {}Coder     : {}XapyH {}       | ").format(r,w,r,w,r,ir,reset,w)
     print("{}  | {}Instagram : {}@harun.st10 {} |").format(r,w,w,w,lgray,w)
     print("{}  '---------------------------'  ").format(r,w)
-    print ("  {}[ 1 ] {}Türkiye").format(r,w)
+    print ("  {}[ 1 ] {}Turkiye").format(r,w)
     print ("  {}[ 2 ] {}Almanya").format(r,w)
     print ("  {}[ 3 ] {}Italya").format(r,w)
     print ("  {}[ 4 ] {}Fransa").format(r,w)
@@ -46,7 +46,7 @@ def main():
 
 def filtering(pilih):
     if pilih == 1:
-        Türkiye()
+        Turkiye()
     elif pilih == 2:
         Almanya()
     elif pilih == 3:
