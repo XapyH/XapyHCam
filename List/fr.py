@@ -16,7 +16,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleW
 
 
 
-def france():
+def Fransa():
     global page
     res = requests.get('https://www.insecam.org/en/bycountry/FR/', headers=headers)
     findpage = re.findall('"?page=",\s\d+', res.text)[1]
