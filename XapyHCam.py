@@ -54,7 +54,7 @@ def filtering(pilih):
     elif pilih == 4:
         Fransa()
     elif pilih == 5:
-        Amerika Birlesik Devletleri()
+        AmerikaBirlesikDevletleri()
     elif pilih == 0:
         print (r+"Cikis ..."+w)
         os.sys.exit()
