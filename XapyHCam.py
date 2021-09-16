@@ -27,7 +27,7 @@ def main():
     print("  |_____.--.__()_|")
     print("  |V   //# \\\    |")
     print("{}  |I   \\\__//    | ").format(w)
-    print("  |P   '--'      | ")
+    print("  |P    '--'     | ")
     print("{}  '--------------'------------.  ").format(r,w)
     print("{}  | {}Coder     : {}XapyH {}       | ").format(r,w,r,w,r,ir,reset,w)
     print("{}  | {}Instagram : {}@harun.st10 {} |").format(r,w,w,w,lgray,w)
@@ -36,7 +36,7 @@ def main():
     print ("  {}[ 2 ] {}Almanya").format(r,w)
     print ("  {}[ 3 ] {}Italya").format(r,w)
     print ("  {}[ 4 ] {}Fransa").format(r,w)
-    print ("  {}[ 5 ] {}Amerika").format(r,w)
+    print ("  {}[ 5 ] {}Amerika Birlesik Devletleri").format(r,w)
     print ("  {}[ 0 ] {}Cikis").format(r,w)
     print ""
     select = input("\033[1;31m[ \033[1;37mNumarayı Girin \033[1;31m]\033[1;37m> ")
@@ -46,7 +46,7 @@ def main():
 
 def filtering(pilih):
     if pilih == 1:
-        Turkiye()
+        Türkiye()
     elif pilih == 2:
         Almanya()
     elif pilih == 3:
@@ -54,7 +54,7 @@ def filtering(pilih):
     elif pilih == 4:
         Fransa()
     elif pilih == 5:
-        Amerika()
+        Amerika Birlesik Devletleri()
     elif pilih == 0:
         print (r+"Cikis ..."+w)
         os.sys.exit()
