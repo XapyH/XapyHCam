@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests,os,re
 
 b="\033[0;34m"
